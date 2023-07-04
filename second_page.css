@@ -1,0 +1,127 @@
+.container {
+  border-style: solid;
+  border-radius: 4px;
+  background-color: burlywood;
+  margin: 34px;
+  padding: 25px;
+}
+
+.headingStyling {
+  text-align: center;
+}
+
+.paragraphStyling {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.myButton {
+  text-align: center;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.mySearchBar {
+  margin-left: 80%;
+  margin-top: 15px;
+}
+
+.navbar input {
+  border-style: solid;
+  border-radius: 4px black;
+  padding: 3px;
+}
+
+.navbar li a:hover {
+  background-color: brown;
+}
+
+.bigContainer {
+  margin-left: 10%;
+}
+
+.pageTitle {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.letterToTheEditorContainer {
+  border-style: solid;
+  border-radius: 4px red;
+  background-color: azure;
+  margin: 34px;
+  padding: 25px;
+  max-width: fit-content;
+  margin-left: 40%;
+}
+
+.letterToTheEditorTitle {
+  text-align: center;
+}
+
+.mailButton {
+  border-style: solid;
+  background-color: red;
+  max-width: fit-content;
+  padding: 7px;
+}
+
+.mailButton a {
+  text-decoration: none;
+  color: white;
+}
+
+.mailButton :hover {
+  background-color: blue;
+  padding: 7px;
+}
+
+.authorsContainer {
+  display: flex;
+  border-style: solid;
+  border-radius: 4px red;
+  max-width: fit-content;
+  padding: 10px;
+  margin: 25px;
+  margin-left: 22%;
+}
+
+.authors {
+  border-style: solid;
+  border-radius: 4px red;
+  margin: 15px;
+}
+
+.imgClass {
+  height: 200px;
+  width: 200px;
+}
+
+.authorsTitle {
+  margin-left: 42%;
+  background-color: blue;
+  color: white;
+  max-width: fit-content;
+}
+
+.authorsInnerContainer {
+  display: flex;
+  flex-direction: row;
+}
